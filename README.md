@@ -2,7 +2,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 
 
-Uploading 20230622_232628.mp4…
+https://github.com/anshuvermaa/horus_mobility/assets/96846551/5bae159c-45bb-4292-b032-f7986b2f5b70
+
 
 
 
