@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.bg-caricature {
+  background: url('/images/bg.png');
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+@media only screen and (max-width: 768px) {
+  .popup-content {
+    padding: 0;
+    margin-top: 10px;
+    width: 90% !important;
+  }
+  .popup-overlay {
+    overflow-y: auto;
+  }
+}
+
+.model {
+}
+@keyframes slideUp {
+  0%,
+  80% {
+    transform: translateY(120%);
+    opacity: 0.5;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.slide-up {
+  animation: slideUp 2s ease-in;
+}
+.max-width-modal-content {
+  max-width: 537px;
+  width: 100% !important;
+}
+.carousel-wrapper > div > div {
+  margin: 0;
+}
+:root {
+  --swiper-theme-color: #ffc300 !important;
+}
