@@ -1,5 +1,11 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+This project was a freelance team project from fiver 
+members->
+1. anshu verma
+2. deepak chattwani
+
+
 
 
 https://github.com/anshuvermaa/horus_mobility/assets/96846551/5bae159c-45bb-4292-b032-f7986b2f5b70
